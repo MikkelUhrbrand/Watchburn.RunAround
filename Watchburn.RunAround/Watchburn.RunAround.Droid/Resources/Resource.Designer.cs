@@ -1484,6 +1484,12 @@ namespace Watchburn.RunAround.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewStubCompat_android_id = global::Watchburn.RunAround.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Watchburn.RunAround.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewStubCompat_android_layout = global::Watchburn.RunAround.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscanneractivitylayout = global::Watchburn.RunAround.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscannerfragmentlayout = global::Watchburn.RunAround.Droid.Resource.Layout.zxingscannerfragmentlayout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.String.library_name = global::Watchburn.RunAround.Droid.Resource.String.library_name;
+			global::ZXing.Mobile.Resource.Id.contentFrame = global::Watchburn.RunAround.Droid.Resource.Id.contentFrame;
+			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::Watchburn.RunAround.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::Watchburn.RunAround.Droid.Resource.Layout.zxingscannerfragmentlayout;
 		}
 		
 		public partial class Animation
@@ -3421,6 +3427,9 @@ namespace Watchburn.RunAround.Droid
 			// aapt resource value: 0x7f0b001d
 			public const int collapseActionView = 2131427357;
 			
+			// aapt resource value: 0x7f0b0081
+			public const int contentFrame = 2131427457;
+			
 			// aapt resource value: 0x7f0b0046
 			public const int contentPanel = 2131427398;
 			
@@ -3900,6 +3909,12 @@ namespace Watchburn.RunAround.Droid
 			// aapt resource value: 0x7f03002f
 			public const int support_simple_spinner_dropdown_item = 2130903087;
 			
+			// aapt resource value: 0x7f030030
+			public const int zxingscanneractivitylayout = 2130903088;
+			
+			// aapt resource value: 0x7f030031
+			public const int zxingscannerfragmentlayout = 2130903089;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -3913,11 +3928,11 @@ namespace Watchburn.RunAround.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f05001f
-			public const int ApplicationName = 2131034143;
+			// aapt resource value: 0x7f050020
+			public const int ApplicationName = 2131034144;
 			
-			// aapt resource value: 0x7f05001e
-			public const int Hello = 2131034142;
+			// aapt resource value: 0x7f05001f
+			public const int Hello = 2131034143;
 			
 			// aapt resource value: 0x7f05000b
 			public const int abc_action_bar_home_description = 2131034123;
@@ -3972,6 +3987,9 @@ namespace Watchburn.RunAround.Droid
 			
 			// aapt resource value: 0x7f05001d
 			public const int appbar_scrolling_view_behavior = 2131034141;
+			
+			// aapt resource value: 0x7f05001e
+			public const int library_name = 2131034142;
 			
 			// aapt resource value: 0x7f050000
 			public const int mr_media_route_button_content_description = 2131034112;
